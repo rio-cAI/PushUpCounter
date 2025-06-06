@@ -45,11 +45,7 @@ class poseDetector() :
                 if draw:
                     cv2.circle(img, (cx, cy), 5, (255,0,0), cv2.FILLED)
         return lmList
-    
 
-        
-        
-        
 def main():
     detector = poseDetector()
     cap = cv2.VideoCapture(0)
